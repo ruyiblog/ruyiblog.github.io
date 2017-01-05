@@ -1,2 +1,6 @@
-<p>Hello world!</p>
+---
+layout: base
+permalink: /
+---
 
+<div lang="en">{% include welcome.html content=site.introduction.en %}{% include latest.html posts=site.categories.en language='en' %}</div><div lang="zh">{% include welcome.html content=site.introduction.zh %}{% include latest.html posts=site.categories.zh language='zh' %}</div><div lang="ja">{% include welcome.html content=site.introduction.ja %}{% include latest.html posts=site.categories.ja language='ja' %}</div>

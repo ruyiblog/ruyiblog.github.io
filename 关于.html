@@ -1,0 +1,8 @@
+---
+layout: base
+title: 关于
+language: zh
+permalink: /关于/
+---
+
+{% include welcome.html content=site.introduction.zh %}<div class="about"><div class="about-title"><div class="container"><div class="title"><h2>关于</h2><p>欢迎随时来信, 详细联系方式请参见<a href="/联系/">联系我</a>页面。</p></div></div></div><div class="about-content"><div class="container"><div class="about-timeline"><div class="about-timeline-avatar"><i></i></div>{% for timeline in site.data.timeline %}{% if timeline.language == page.language %}{% include timeline.html events=timeline.events %}{% endif %}{% endfor %}</div></div></div><div class="about-world"><div class="about-world-title"><div class="container"><div class="title"><h2>世界旅行</h2><p>我曾经去过的地方。</p></div></div></div>{% include map.html %}</div></div>{% include latest.html posts=site.categories.zh language='zh' %}<div></div>

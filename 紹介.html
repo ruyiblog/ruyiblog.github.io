@@ -1,0 +1,8 @@
+---
+layout: base
+title: 自己紹介
+language: ja
+permalink: /紹介/
+---
+
+{% include welcome.html content=site.introduction.ja %}<div class="about"><div class="about-title"><div class="container"><div class="title"><h2>自己紹介</h2><p>ご連絡は<a href="/連絡/">こちら</a>よりお願い致します。</p></div></div></div><div class="about-content"><div class="container"><div class="about-timeline"><div class="about-timeline-avatar"><i></i></div>{% for timeline in site.data.timeline %}{% if timeline.language == page.language %}{% include timeline.html events=timeline.events %}{% endif %}{% endfor %}</div></div></div><div class="about-world"><div class="about-world-title"><div class="container"><div class="title"><h2>どこに行ってたの？</h2><p>世界を旅してみましょう！</p></div></div></div>{% include map.html %}</div></div>{% include latest.html posts=site.categories.ja language='ja' %}<div></div>

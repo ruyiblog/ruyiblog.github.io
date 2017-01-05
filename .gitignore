@@ -1,0 +1,26 @@
+# jekyll
+_site/
+
+# sass
+.sass-cache
+
+# python
+*.py[co]
+
+# editor
+*~
+*.bak
+*.orig
+*.swp
+*.mo
+*.sublime-*
+tmp
+
+# generated
+_css/ruyi.css
+_js/ruyi.js
+
+*.coffee.js
+*.sass.css
+.sass-cache
+

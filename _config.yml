@@ -1,0 +1,60 @@
+title:
+  en: Ru Yi
+  zh: 茹意
+  ja: ルーイー
+subtitle:
+  en: "Hello, I'm Ru Yi."
+  zh: "你好, 我是茹意。"
+  ja: "ルーイーのブログへようこそ。"
+introduction:
+  en: >
+    <h1>Hello, I'm <a href="/about/">Ru Yi</a>.</h1>
+    <h2></h2>
+  zh: >
+    <h1>你好, 我是<a href="/关于/">茹意</a>, </h1>
+    <h2></h2>
+  ja: >
+    <h1><a href="/紹介/">ルーイー</a>のブログへようこそ。</h1>
+    <h2></h2>
+keywords: "Ru Yi,茹意,ルーイー"
+author:
+  name: Ru Yi
+  email: hello@ruyi.blog
+timezone: UTC
+encoding: utf-8
+
+url: https://ruyi.blog
+repository: https://github.com/ruyiblog/ruyiblog.github.io
+feed:
+  en: /feed.xml
+  zh: /订阅.xml
+  ja: /フィード.xml
+static_url: /static
+
+debug: false
+analytics: UA-34085887-4
+
+lsi: false
+safe: true
+highlighter: rouge
+permalink: /:year/:month/:title/
+relative_permalinks: false
+markdown: kramdown
+
+exclude:
+- Gemfile
+- Gemfile.lock
+- Makefile
+- Rakefile
+- README.md
+- LICENSE
+
+defaults:
+- scope:
+    path: ""
+    type: posts
+  values:
+    is_post: true
+
+primary_color: "#f72e3c"
+

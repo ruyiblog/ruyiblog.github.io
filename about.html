@@ -1,0 +1,8 @@
+---
+layout: base
+title: About
+language: en
+permalink: /about/
+---
+
+{% include welcome.html content=site.introduction.en %}<div class="about"><div class="about-title"><div class="container"><div class="title"><h2>About</h2><p>Feel free to reach out to me on the <a href="/contact/">contact me</a> page.</p></div></div></div><div class="about-content"><div class="container"><div class="about-timeline"><div class="about-timeline-avatar"><i></i></div>{% for timeline in site.data.timeline %}{% if timeline.language == page.language %}{% include timeline.html events=timeline.events %}{% endif %}{% endfor %}</div></div></div><div class="about-world"><div class="about-world-title"><div class="container"><div class="title"><h2>Where in the world?</h2><p>Places I have been to in my travels.</p></div></div></div>{% include map.html %}</div></div>{% include latest.html posts=site.categories.en language='en' %}<div></div>

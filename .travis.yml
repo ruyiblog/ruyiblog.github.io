@@ -1,0 +1,10 @@
+language: ruby
+rvm:
+  - 2.3.0
+install:
+  - sudo apt-get install coffeescript yui-compressor -y
+  - bundle install
+script:
+  - make clean
+  - make
+  - bundle exec jekyll build

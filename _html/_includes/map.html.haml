@@ -1,0 +1,4 @@
+.map.js-map{"data-region" => "world"}<>
+  = "{% for kv in site.data.map %}"
+  %div{"data-region" => "{{ kv[0] }}", "data-regions" => "{{ kv[1] | join:',' }}"}<>
+  = "{% endfor %}"

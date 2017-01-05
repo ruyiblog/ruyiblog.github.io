@@ -1,0 +1,89 @@
+.footer
+  color: #999
+  position: relative
+  padding-top: 100px
+  overflow: hidden
+
+  .footer-head
+    position: absolute
+    left: 0
+    top: 0
+    width: 100%
+    > i
+      display: block
+      margin: 0 auto
+      margin-top: 35px
+      width: 196px
+      height: 76px
+      background: transparent url("../img/footer-head.png")
+      background-size: 196px 76px
+      text-indent: -100%
+      overflow: hidden
+
+  .footer-content
+    background: #333 url("../img/bg-dark.png")
+    padding: 50px 0
+    padding-bottom: 20px
+    color: #ccc
+    min-height: 400px
+    ul.status
+      display: block
+      list-style: none
+      margin: 0
+      padding: 0
+      li.status
+        display: block
+        margin-bottom: 30px
+        a
+          display: block
+          color: #ccc
+          p
+            margin: 0
+          strong
+            font-weight: normal
+            text-transform: lowercase
+            color: #888
+          &:hover, &:focus
+            color: #eee
+            text-decoration: none
+
+  .footer-bottom
+    font-size: 12px
+    background: #292929 url("../img/bg-darker.png")
+
+    .footer-tree
+      position: absolute
+      display: block
+      right: -120px
+      top: -350px
+      width: 350px
+      height: 350px
+      background: transparent url("../img/tree.png")
+      background-size: 350px 350px
+
+    .footer-menu
+      padding: 50px 0
+      ul
+        display: block
+        list-style: none
+        margin: 0
+        margin-bottom: 25px
+        padding: 0
+        li
+          line-height: 20px
+          margin-bottom: 0
+          strong
+            display: inline-block
+            text-transform: uppercase
+            color: #aaa
+            margin-bottom: 10px
+          a
+            color: #999
+            &:hover, &:focus
+              text-decoration: none
+              color: #ddd
+
+@media (max-width: 767px)
+  .footer
+    .footer-content
+      padding-bottom: 350px

@@ -1,0 +1,39 @@
+== ---
+layout: base
+title: 关于
+language: zh
+permalink: /关于/
+== ---
+= "\n\n"
+
+= "{% include welcome.html content=site.introduction.zh %}"
+
+.about<>
+  .about-title
+    .container<>
+      .title<>
+        %h2<> 关于
+        %p<> 欢迎随时来信, 详细联系方式请参见<a href="/联系/">联系我</a>页面。
+
+  .about-content<>
+    .container<>
+      .about-timeline<>
+        .about-timeline-avatar<>
+          %i<>
+        = "{% for timeline in site.data.timeline %}"
+        = "{% if timeline.language == page.language %}"
+        = "{% include timeline.html events=timeline.events %}"
+        = "{% endif %}"
+        = "{% endfor %}"
+
+  .about-world
+    .about-world-title<>
+      .container<>
+        .title<>
+          %h2<> 世界旅行
+          %p<> 我曾经去过的地方。
+    = "{% include map.html %}"
+
+= "{% include latest.html posts=site.categories.zh language='zh' %}"
+
+%div<>

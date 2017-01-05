@@ -1,0 +1,26 @@
+---
+- language: en
+  events:
+  - title: Ph.D, University of Toronto
+    subtitle: 2015 - 2020
+    content: |
+       Develop and analyze new ontologies to improve efficiency and information exposure effectiveness over the Internet and e-Commerce.
+    labels: [phd]
+
+- language: zh
+  events:
+  - title: Ph.D, University of Toronto
+    subtitle: 2015 - 2020
+    content: |
+       Develop and analyze new ontologies to improve efficiency and information exposure effectiveness over the Internet and e-Commerce.
+    labels: [phd]
+
+- language: ja
+  events:
+  - title: Ph.D, University of Toronto
+    subtitle: 2015 - 2020
+    content: |
+       Develop and analyze new ontologies to improve efficiency and information exposure effectiveness over the Internet and e-Commerce.
+    labels: [phd]
+
+
