@@ -1,20 +1,15 @@
 title:
   en: Ru Yi
   zh: 茹意
-  ja: ルーイー
 subtitle:
   en: "Hello, I'm Ru Yi."
   zh: "你好, 我是茹意。"
-  ja: "ルーイーのブログへようこそ。"
 introduction:
   en: >
     <h1>Hello, I'm <a href="/about/">Ru Yi</a>.</h1>
     <h2></h2>
   zh: >
     <h1>你好, 我是<a href="/关于/">茹意</a>, </h1>
-    <h2></h2>
-  ja: >
-    <h1><a href="/紹介/">ルーイー</a>のブログへようこそ。</h1>
     <h2></h2>
 keywords: "Ru Yi,茹意,ルーイー"
 author:
@@ -28,7 +23,6 @@ repository: https://github.com/ruyiblog/ruyiblog.github.io
 feed:
   en: /feed.xml
   zh: /订阅.xml
-  ja: /フィード.xml
 static_url: /static
 
 debug: false

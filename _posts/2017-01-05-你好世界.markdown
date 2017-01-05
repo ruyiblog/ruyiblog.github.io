@@ -1,0 +1,9 @@
+---
+layout: post
+title: 你好，世界
+language: zh
+categories: [zh]
+---
+
+这是第一篇博文，作为测试。
+

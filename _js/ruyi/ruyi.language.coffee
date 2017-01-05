@@ -9,5 +9,5 @@ ruyi.namespace 'ruyi.language', (exports) ->
   ruyi.init ->
     language = navigator.userLanguage or navigator.language or 'en'
     language = language.split('-')[0].toLowerCase()
-    language = 'en' unless language in ['zh', 'ja']
+    language = 'en' unless language in ['zh']
     ruyi.language.set language

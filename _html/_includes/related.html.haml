@@ -7,8 +7,6 @@
       %li.related-label<>
         = "{% if include.post.language == 'zh' %}"
         %span.label.label-default<> 上一篇
-        = "{% elsif include.post.language == 'ja' %}"
-        %span.label.label-default<> 前の記事へ
         = "{% else %}"
         %span.label.label-default<> Previous post
         = "{% endif %}"
@@ -20,8 +18,6 @@
       %li.related-label<>
         = "{% if include.post.language == 'zh' %}"
         %span.label.label-default<> 下一篇
-        = "{% elsif include.post.language == 'ja' %}"
-        %span.label.label-default<> 次の記事へ
         = "{% else %}"
         %span.label.label-default<> Next post
         = "{% endif %}"

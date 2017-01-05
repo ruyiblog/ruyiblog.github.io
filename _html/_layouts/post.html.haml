@@ -15,8 +15,6 @@ is_post: true
         .post-title<>
           = "{% if page.language == 'zh' %}"
           %strong<> {{ page.date | date: '%Y 年 %m 月 %d 日' }}
-          = "{% elsif page.language == 'ja' %}"
-          %strong<> {{ page.date | date: '%Y 年 %m 月 %d 日' }}
           = "{% else %}"
           %strong<> {{ page.date | date_to_long_string }}
           = "{% endif %}"
@@ -35,8 +33,6 @@ is_post: true
 
 = "{% if page.language == 'zh' %}"
 = "{% include related.html posts=site.categories.zh post=page %}"
-= "{% elsif page.language == 'ja' %}"
-= "{% include related.html posts=site.categories.ja post=page %}"
 = "{% else %}"
 = "{% include related.html posts=site.categories.en post=page %}"
 = "{% endif %}"

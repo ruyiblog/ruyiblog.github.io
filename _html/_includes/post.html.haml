@@ -2,8 +2,6 @@
   %a{href: "{{ include.post.url }}"}<>
     = "{% if include.post.language == 'zh' %}"
     %strong<> {{ include.post.date | date: '%Y 年 %m 月 %d 日' }}
-    = "{% elsif page.language == 'ja' %}"
-    %strong<> {{ include.post.date | date: '%Y 年 %m 月 %d 日' }}
     = "{% else %}"
     %strong<> {{ include.post.date | date_to_long_string }}
     = "{% endif %}"
