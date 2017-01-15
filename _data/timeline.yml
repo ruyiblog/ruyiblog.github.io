@@ -1,26 +1,46 @@
 ---
 - language: en
   events:
-  - title: Ph.D, University of Toronto
-    subtitle: 2015 - 2020
+  - title: Ph.D. Candidate / Researcher, University of Toronto
+    subtitle: 2015/09 - 2020/05
     content: |
-       Develop and analyze new ontologies to improve efficiency and information exposure effectiveness over the Internet and e-Commerce.
-    labels: [phd]
+      Develop and analyze new ontologies to improve efficiency and information exposure effectiveness over the Internet and e-Commerce. Full scholarship awarded.
+    labels: [Artificial Intelligence, Ontology]
+
+  - title: Junior Supervisor, China Railway Group Limited
+    subtitle: 2013/07 - 2013/09
+    content: |
+      Trained and supervised a team of 20 interns for documenting the national project "WG High Speed Rail", completed 1 month earlier than scheduled.
+
+  - title: Analyst Intern, JINTIANHAO Robotics and Human Intelligence Ltd
+    subtitle: 2013/05 - 2013/09
+    content: |
+      Secured a 10M RMB contract with one of the top selling air-conditioning manufacturer by suggesting and implementing the strategy of importing a high performance precise robotics model and bundling the sale with self-developed cost-efficient large scale models.
+
+  - title: Bachelor of Applied Science, University of Toronto
+    subtitle: 2010/09 - 2015/05
+    content: |
+      Dean’s Honor List, University of Toronto President Scholarship, Scholarship of Class 5T3
 
 - language: zh
   events:
-  - title: Ph.D, University of Toronto
-    subtitle: 2015 - 2020
+  - title: Ph.D. Candidate / Researcher, University of Toronto
+    subtitle: 2015/09 - 2020/05
     content: |
-       Develop and analyze new ontologies to improve efficiency and information exposure effectiveness over the Internet and e-Commerce.
-    labels: [phd]
+      Develop and analyze new ontologies to improve efficiency and information exposure effectiveness over the Internet and e-Commerce. Full scholarship awarded.
+    labels: [Information Engineering, Artificial Intelligence, Knowledge Modelling, Ontology]
 
-- language: ja
-  events:
-  - title: Ph.D, University of Toronto
-    subtitle: 2015 - 2020
+  - title: Junior Supervisor, China Railway Group Limited
+    subtitle: 2013/07 - 2013/09
     content: |
-       Develop and analyze new ontologies to improve efficiency and information exposure effectiveness over the Internet and e-Commerce.
-    labels: [phd]
+      Trained and supervised a team of 20 interns for documenting the national project "WG High Speed Rail", completed 1 month earlier than scheduled.
 
+  - title: Analyst Intern, JINTIANHAO Robotics and Human Intelligence Ltd
+    subtitle: 2013/05 - 2013/09
+    content: |
+      Secured a 10M RMB contract with one of the top selling air-conditioning manufacturer by suggesting and implementing the strategy of importing a high performance precise robotics model and bundling the sale with self-developed cost-efficient large scale models.
 
+  - title: Bachelor of Applied Science, University of Toronto
+    subtitle: 2010/09 - 2015/05
+    content: |
+      Dean’s Honor List, University of Toronto President Scholarship, Scholarship of Class 5T3

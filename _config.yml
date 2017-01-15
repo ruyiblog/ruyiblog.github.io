@@ -1,20 +1,20 @@
 title:
-  en: Ru Yi
+  en: Yvonne Ru
   zh: 茹意
 subtitle:
-  en: "Hello, I'm Ru Yi."
-  zh: "你好, 我是茹意。"
+  en: "Hello, I'm Yvonne Ru, PhD Candidate and Researcher at University of Toronto."
+  zh: "你好，我是茹意，目前在多伦多大学读博。"
 introduction:
   en: >
-    <h1>Hello, I'm <a href="/about/">Ru Yi</a>.</h1>
-    <h2></h2>
+    <h1>Hello, I'm <a href="/about/">Yvonne Ru</a>, PhD Candidate and Researcher at University of Toronto.</h1>
+    <h2>Also an entrepreneur, an avid swimmer, and a world traveler. I always try my very best.</h2>
   zh: >
-    <h1>你好, 我是<a href="/关于/">茹意</a>, </h1>
-    <h2></h2>
-keywords: "Ru Yi,茹意,ルーイー"
+    <h1>你好，我是<a href="/关于/">茹意</a>，目前在多伦多大学读博。</h1>
+    <h2>把自己能做的一切做到最好。</h2>
+keywords: "Yvonne Ru,Yi Ru,Ru Yi,茹意"
 author:
-  name: Ru Yi
-  email: hello@ruyi.blog
+  name: Yvonne Ru
+  email: hello@yvonneru.com
 timezone: UTC
 encoding: utf-8
 
@@ -50,5 +50,5 @@ defaults:
   values:
     is_post: true
 
-primary_color: "#f72e3c"
+primary_color: "#fe9a3d"
 

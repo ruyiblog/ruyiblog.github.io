@@ -18,8 +18,6 @@ permalink: /about/
   .about-content<>
     .container<>
       .about-timeline<>
-        .about-timeline-avatar<>
-          %i<>
         = "{% for timeline in site.data.timeline %}"
         = "{% if timeline.language == page.language %}"
         = "{% include timeline.html events=timeline.events %}"
