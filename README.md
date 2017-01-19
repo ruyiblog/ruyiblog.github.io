@@ -1,2 +1,1 @@
-# ruyiblog.github.io
-
+# ruyi.blog
