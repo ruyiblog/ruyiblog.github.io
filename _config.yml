@@ -18,7 +18,7 @@ author:
 timezone: UTC
 encoding: utf-8
 
-url: https://ruyi.blog
+url: http://yvonneru.com
 repository: https://github.com/ruyiblog/ruyiblog.github.io
 feed:
   en: /feed.xml
